@@ -8,6 +8,7 @@ const categories = [
         skills: [
             { id: 1, name: 'JavaScript', icon: <SiJavascript color="#F7E02E" /> },
             { id: 2, name: 'React', icon: <FaReact color="#61DAFB" /> },
+            { id: 30, name: 'Next.js', icon: <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="Next.js" className="w-6 h-6" /> },
             { id: 3, name: 'HTML5', icon: <FaHtml5 color="#E34F26" /> },
             { id: 4, name: 'CSS3', icon: <FaCss3Alt color="#1572B6" /> },
             { id: 15, name: 'Tailwind CSS', icon: <img src="https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg" alt="Tailwind CSS" className="w-6 h-6" /> },

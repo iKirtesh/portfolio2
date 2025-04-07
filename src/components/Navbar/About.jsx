@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
     const photos = [
-        'https://lh3.googleusercontent.com/AVX9GsvHMwrrpnwNLAbfM1uhbUvqdy1KyPVmUfUS5Keqe5C4Gsyq7Z9t7cpoux0cQfqclenE6JcflJQBIki1x3grOZ6TuXSPFvCb9IebYSIoO0y3Zss=w800-rw-e365-v1'
+        // 'https://lh3.googleusercontent.com/AVX9GsvHMwrrpnwNLAbfM1uhbUvqdy1KyPVmUfUS5Keqe5C4Gsyq7Z9t7cpoux0cQfqclenE6JcflJQBIki1x3grOZ6TuXSPFvCb9IebYSIoO0y3Zss=w800-rw-e365-v1'
     ];
 
     return (
@@ -31,11 +31,11 @@ function About() {
                 </div>
                 <div className="w-full md:w-1/2">
                     <div className="grid grid-cols-1 gap-4">
-                        <img
-                            src={photos[0]}
-                            alt="Main Gallery"
-                            className="w-full h-auto object-cover rounded-lg"
-                        />
+                        {/*<img*/}
+                        {/*    src={photos[0]}*/}
+                        {/*    // alt="Main Gallery"*/}
+                        {/*    className="w-full h-auto object-cover rounded-lg"*/}
+                        {/*/>*/}
                     </div>
                 </div>
             </div>

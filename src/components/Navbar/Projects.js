@@ -7,22 +7,28 @@ import Modal from './Modal'; // Assuming Modal component is defined in a separat
 const projects = [
     {
         id: 1,
-        title: 'E-commerce Platform',
-        description: 'An e-commerce platform with product listings, shopping cart, and order processing features. The platform is built using React, Spring Boot, MySQL, and Docker.',
-        technologies: ['React', 'Spring Boot', 'MySQL', 'Docker'],
-        imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrhSQd0muDxdWFMZXAGxoTXYvESnRjzn508Q&s',
-        githubUrl: 'https://github.com/username/e-commerce-platform',
-        liveUrl: 'https://e-commerce-platform.example.com',
+        title: 'EEminent Hub for Professionals',
+        description: '• Implemented a blogging feature, allowing users to share knowledge and insights through personalized blogs.\n' +
+            '• Integrated a secure Google login and session management system using Firebase, ensuring seamless authentication.\n' +
+            '• Designed an admin dashboard to manage user portfolios, blogs, and other platform activities effectively',
+        technologies: ['NextJS', 'MongoDB', 'Firebase',],
+        imageUrl: 'https://lh3.googleusercontent.com/pw/AP1GczOUIMIzdUejRs81nO31R5TwbRRTb4kbOY9LZLXabr5PiYiIFL8pPxbTSy--QYt2s8nE9FEkDLYrTzG3C3od5fFmNZegd_-EZNFA3XyLzIVzjoM_fvpmgpUN44tmu3re7YuOmpcuxm24WS_dglvPvOYT=w1882-h851-s-no-gm?authuser=0',
+        // githubUrl: 'https://github.com/username/e-commerce-platform',
+        liveUrl: 'https://eminenthub.vercel.app/',
         category: 'Full Stack',
     },
     {
         id: 2,
-        title: 'Portfolio Website',
-        description: 'A personal portfolio website showcasing skills, projects, and contact information.',
-        technologies: ['React', 'Tailwind CSS'],
-        imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF55aQtSTbT04LSraZJwoX81S8L_A7OFJXaA&s',
-        githubUrl: 'https://github.com/username/portfolio-website',
-        liveUrl: 'https://portfolio.example.com',
+        title: ' Club Management Platform',
+        description: '• Developed a platform to manage clubs, events, and user engagement.\n' +
+            '• Integrated secure Google login with Firebase and Razorpay for seamless event registrations, supporting both individual and\n' +
+            '• team payments.\n' +
+            '• Enabled role-based access, promoting users to members and tracking their membership journey.\n' +
+            '• Built an admin panel for task delegation and streamlined collaboration with clear hierarchies.',
+        technologies: ['React', 'Tailwind CSS', 'Firebase', 'Razorpay', 'Node.js', 'Express.js'],
+        // imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF55aQtSTbT04LSraZJwoX81S8L_A7OFJXaA&s',
+        // githubUrl: 'https://github.com/username/portfolio-website',
+        // liveUrl: 'https://portfolio.example.com',
         category: 'Web App',
     },
     {
@@ -30,9 +36,9 @@ const projects = [
         title: 'Club UI Design',
         description: 'A Club UI Design to organize events, manage members, and showcase club information.',
         technologies: ['Figma'],
-        imageUrl: 'https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/4088138/cover_image/retina_1708x683/cover-mobile-ux-design-best-practices-07b43207b46a9eac30bc54299d403fb4.png',
-        githubUrl: 'https://github.com/username/club-ui-design',
-        liveUrl: 'https://club-ui-design.example.com',
+        // imageUrl: 'https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/4088138/cover_image/retina_1708x683/cover-mobile-ux-design-best-practices-07b43207b46a9eac30bc54299d403fb4.png',
+        // githubUrl: 'https://github.com/username/club-ui-design',
+        // liveUrl: 'https://club-ui-design.example.com',
         category: 'UX/UI Design',
     }
 ];
